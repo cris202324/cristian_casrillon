@@ -1,0 +1,158 @@
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Body */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #680779, #ffffff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    text-align: center;
+}
+
+
+/* Main Container */
+
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+
+/* Header */
+
+h2 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+
+/* Form Inputs */
+
+.textbox {
+    position: relative;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.textbox label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    background-color: #f7f7f7;
+    transition: all 0.3s ease;
+}
+
+.textbox input:focus {
+    border-color: #8000ca2a;
+    background-color: #fff;
+}
+
+
+/* Submit Button */
+
+button {
+    background-color: #4f035e;
+    color: white;
+    padding: 15px 0;
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #590c77;
+}
+
+
+/* Error Message */
+
+.error-message {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f4f8;
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.mesas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mesa-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
